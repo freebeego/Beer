@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .root {
   font-family: Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;

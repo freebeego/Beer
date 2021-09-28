@@ -38,35 +38,35 @@
 					"singleQuote": true,
 					"semi": false
 				}
-            ],
-        "react/no-unescaped-entities": 0,
-        "no-extra-semi": "off",
-        "semi": ["error", "never"],
-        "quotes": ["error", "single"],
-        "react/display-name": "off",
-        "react/prop-types": "off",
-        "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
-        "no-plusplus": "off",
-        "import/no-unresolved": [2, { "ignore": ["@"] }],
-        "import/order": ["error", {
-            "groups": ["builtin", "external", "internal", "index", "sibling", "parent", "object"],
-            "pathGroups": [
-                {
-                    "pattern": "@!(icons | images)/**",
-                    "group": "internal",
-                    "position": "after"
-                },
-                {
-                    "pattern": "@(icons | images)/**",
-                    "group": "parent",
-                    "position": "after"
-                }
-            ]
-        }],
-        "@typescript-eslint/ban-ts-comment": "off",
-        "@typescript-eslint/explicit-module-boundary-types": "off",
-        "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-empty-function": "off"
+      ],
+      "react/no-unescaped-entities": 0,
+      "no-extra-semi": "off",
+      "semi": ["error", "never"],
+      "quotes": ["error", "single"],
+      "react/display-name": "off",
+      "react/prop-types": "off",
+      "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
+      "no-plusplus": "off",
+      "import/no-unresolved": [2, { "ignore": ["@"] }],
+      "import/order": ["error", {
+          "groups": ["builtin", "external", "internal", "index", "sibling", "parent", "object"],
+          "pathGroups": [
+              {
+                  "pattern": "@!(icons | images)/**",
+                  "group": "internal",
+                  "position": "after"
+              },
+              {
+                  "pattern": "@(icons | images)/**",
+                  "group": "parent",
+                  "position": "after"
+              }
+          ]
+      }],
+      "@typescript-eslint/ban-ts-comment": "off",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-empty-function": "off"
     },
     "settings": {
         "react": {
