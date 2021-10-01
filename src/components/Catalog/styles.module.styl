@@ -1,0 +1,40 @@
+.header
+  display flex
+  flex-direction column
+  justify-content space-between
+
+  @media screen and (min-width: 768px)
+    flex-direction row
+
+  &Search
+    align-self center
+    box-sizing border-box
+    border none
+    padding 5px 10px 1px
+    width 100%
+    font-size 24px
+    margin-top 40px
+
+    @media screen and (min-width: 768px)
+      width 48%
+
+    &:focus
+      outline none
+      border-bottom 1px solid #666666
+      padding-bottom 0
+      background-color inherit
+
+.catalog
+  display grid
+  grid-template-columns repeat(auto-fill, 200px)
+  grid-auto-rows 340px
+  justify-content center
+  column-gap 20px
+  row-gap 60px
+  list-style none
+  padding 0
+
+  @media screen and (min-width: 768px)
+    grid-template-columns repeat(auto-fill, 300px)
+    grid-auto-rows 480px
+    column-gap 40px
